@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "C:\Users\Antho\Downloads\final_project_revised\temp.py", line 270, in <module>
+    cleaned_html = clean_data(html)
+                   ^^^^^^^^^^^^^^^^
+  File "C:\Users\Antho\Downloads\final_project_revised\temp.py", line 35, in clean_data
+    cleaned_text = text.replace('\n', '')
+                   ^^^^^^^^^^^^^^^^^^^^^^
+TypeError: a bytes-like object is required, not 'str'
